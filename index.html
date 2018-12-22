@@ -9,23 +9,26 @@
   <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />   
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/script.js"></script>
-
 </head>
 
 <body>
     
-    <div class="container">
+  <div class="container">
+    <div class="page-header">
       <div class="jumbotron">
         <h1>BASICS OF CODING;>}</h1>
         <h3>Welcome to week three of our coding class. Let us see how mush you have learnt</h3>
       </div>
+    </div>
 
-      
-         <div class="form-inline">
-        <form>
+  
+    
+    <form class="form-inline">
+
+
       <div class="well"> 
-        <div class="form-control "> <p id="qtn">1. HTML stands for:</p> </div>  <br>  
-        
+
+        <div class="form-control "> <p id="qtn">1. HTML stands for:</p> </div>  <br>          
           
         <div class="q-one-radio1">
           <label><input type="radio" name="qtn0" value="wrong"> Highly Transparent Markup Language </label>
@@ -36,12 +39,15 @@
         <div class="q-one-radio3">
           <label><input type="radio" name="qtn0" value="right"> Hypertext Markup Language </label>
         </div><br>
+
       </div> 
+
+    
       
       
       <div class="well">
-        <div class="form-control "> <p id="qtn">2. The other term for javascript is:</p></div><br>
 
+        <div class="form-control "> <p id="qtn">2. The other term for javascript is:</p></div><br>
 
         <div class="q-two-radio1">
           <label><input type="radio" name="qtn1" value="right"> ECMA Script</label>
@@ -52,12 +58,15 @@
         <div class="q-two-radio3">
           <label><input type="radio" name="qtn1" value="wrong"> No Answer</label>
         </div><br>
+
       </div>  
+
+
+
+
       <div class="well">
 
-
         <div class="form-control "><p id="qtn">3. CSS stands for:</p><br></div>
-
 
         <div class="q-three-radio">
           <label><input type="radio" name="qtn2" value="wrong"> Cool stylesheets</label>
@@ -68,10 +77,14 @@
         <div class="radio3">
           <label><input type="radio" name="qtn2" value="right"> Cascading Stylesheets</label>
         </div><br>
-      </div>  
-      <div class="well">
-        <div class="form-control "><p id="qtn">4. One of these signs is not used in Javascript:</p><br></div>
 
+      </div> 
+      
+      
+
+      <div class="well">
+
+        <div class="form-control "><p id="qtn">4. One of these signs is not used in Javascript:</p><br></div>
 
         <div class="q-four-radio">
             <label><input type="radio" name="qtn3" value="wrong"><span id="tinies"> } </span> </label>
@@ -82,16 +95,32 @@
         <div class="radio3">
           <label><input type="radio" name="qtn3" value="right"><span id="tinies"> > </span></label>
         </div><br>
-      
-      </form>
-        
-    </div> 
-     <input type="button" value="Check Your Score">
-     <div id="output"></div>  
-    </div> 
+
+      </div>
+
+
+
+
+      <div class="well">
+
+        <div class="form-control "><p id="qtn">5. For one to have a webpage running and interactive they need atleast:</p><br></div>  
+
+        <div class="q-four-radio">
+            <label><input type="radio" name="qtn3" value="wrong">HTML</label>
+        </div>
+        <div class="radio2">
+          <label><input type="radio" name="qtn3" value="wrong">Javascript</label>
+        </div>
+        <div class="radio3">
+          <label><input type="radio" name="qtn3" value="right">Both</label>
+        </div><br>
+
+      </div>       
+    </form>
+            
+    <input type="button" value="Check Your Score">
+    <div id="output">Your Marks!!!!!!</div>   
   
-    </div> 
-  
-    
+   </div>     
   </body>
 </html>

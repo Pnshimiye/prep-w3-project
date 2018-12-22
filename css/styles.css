@@ -1,19 +1,50 @@
 .jumbotron{
   text-align:center;
-  background-color: rgb(196, 184, 207);
-  /* position: absolute; */
+  background-color: rgb(86, 64, 107);
 }
-#tinies{
-  font-size: 25;
   
+#tinies{
+  font-size: 25; 
 }
+
+
 #qtn{
+
   font-style: italic;
   font-weight: bold;
   font-size:20;
   
 }
-.form-control{
+/* .form-control{
+  width:auto;
+
+} */
+.well{
   width:auto;
 
 }
+
+.page-header{
+  position: static;
+}
+#output{
+  background-color:rgb(86, 64, 107);
+/*   
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 20px;
+  color: white;
+  font-size: 25px;
+  border-radius: 4px;
+  box-shadow: 2px 2px  2px 2px grey;
+  margin-bottom: 10px;
+
+
+}
+body{
+  background-color:rgb(191, 186, 196);
+}
+.jumbotron h1,h3{
+  color:white;
+} */
