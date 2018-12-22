@@ -29,7 +29,7 @@
 }
 #output{
   background-color:rgb(86, 64, 107);
-/*   
+  
   padding: 10px;
   text-align: center;
   font-weight: 700;
@@ -47,4 +47,4 @@ body{
 }
 .jumbotron h1,h3{
   color:white;
-} */
+}
