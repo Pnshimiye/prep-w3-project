@@ -1,13 +1,19 @@
 .jumbotron{
   text-align:center;
-  background-color: rgb(196, 184, 207)
+  background-color: rgb(196, 184, 207);
+  /* position: absolute; */
 }
 #tinies{
-  font-size: 20;
+  font-size: 25;
+  
 }
 #qtn{
   font-style: italic;
   font-weight: bold;
   font-size:20;
   
+}
+.form-control{
+  width:auto;
+
 }
