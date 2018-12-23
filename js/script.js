@@ -20,7 +20,7 @@ $(document).ready(function(){
       answerQuestionTwo = $("input[name='qtn1']:checked").val();
       answerQuestionThree = $("input[name='qtn2']:checked").val();
       answerQuestionFour = $("input[name='qtn3']:checked").val();
-      // answerQuestionFive = $("input[name='qtn4']:checked").val();
+      answerQuestionFive = $("input[name='qtn4']:checked").val();
 
     
       if(answerQuestionOne === "right"){
