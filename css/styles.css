@@ -1,6 +1,7 @@
 .jumbotron{
   text-align:center;
-  background-color: rgb(86, 64, 107);
+  background-color: rgb(68, 124, 87);
+  box-shadow: 2px 2px  2px 2px grey; 
 }
   
 #tinies{
@@ -25,7 +26,7 @@
   position: static;
 }
 #output{
-  background-color:rgb(86, 64, 107);  
+  background-color:rgb(68, 124, 87);  
   padding: 10px;
   text-align: center;
   font-weight: 700;
@@ -39,7 +40,7 @@
 
 }
 body{
-  background-color:rgb(191, 186, 196);
+  background-color:rgb(151, 150, 151);
 }
 .jumbotron h1,h3{
   color:white;
@@ -47,4 +48,11 @@ body{
 label{
   font-weight: 150;
   font-size:18px;
+}
+footer{
+  text-align:center;
+  font-size: 18px;
+  font-weight: 250px;
+  color:whitesmoke;
+
 }

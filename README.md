@@ -8,12 +8,12 @@ This project is about making a form that will serve as a questionnaire where the
 Done by Pauline Nshimiye a student at Moringa School
 
 ## Functionality
- -The user answers he four multiple choice question provided in the form by selecting the correct answer.
- -One cannot selsect more than one answer for each question.
- -Each question weighs 2.5 marks
+ -The user answers the five multiple choice questions provided in the form by selecting the correct answer.
+ -One cannot select more than one answer for each question.
+ -Each question holds two marks
  -if a question is not answered the program will mark it to zero.
  -The user can check their marks at the end and all along.
- -to view the marks the user ckicks on the "Check your score" button.
+ -To view the marks the user clicks on the "Check your score" button and see the marks below.
 
 
 ## Setup Instructions
@@ -27,7 +27,7 @@ Language: Javascript (Using jQuerry)
 Slyled and Marked up with CSS(using Bootsrap), HTML and Markdown 
 
 ## Contact
-If you wish o give any contribution to my project, or anything else, I can be reached on Github https://github.com/Pnshimiye, or on Facebook:https://www.facebook.com/pauline.nshimiye
+If you wish to give any contribution to my project, or anything else, I can be reached on Github https://github.com/Pnshimiye, or on Facebook:https://www.facebook.com/pauline.nshimiye
 
 ## Licence
 
