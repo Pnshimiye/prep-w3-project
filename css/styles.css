@@ -15,10 +15,7 @@
   font-size:20;
   
 }
-/* .form-control{
-  width:auto;
 
-} */
 .well{
   width:auto;
 
@@ -28,12 +25,11 @@
   position: static;
 }
 #output{
-  background-color:rgb(86, 64, 107);
-  
+  background-color:rgb(86, 64, 107);  
   padding: 10px;
   text-align: center;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 10px;
   color: white;
   font-size: 25px;
   border-radius: 4px;
@@ -48,3 +44,7 @@ body{
 .jumbotron h1,h3{
   color:white;
 }
+/* #button{
+  margin-bottom: 1px;
+  margin-top: 2px;
+} */
