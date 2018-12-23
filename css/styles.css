@@ -44,7 +44,7 @@ body{
 .jumbotron h1,h3{
   color:white;
 }
-/* #button{
-  margin-bottom: 1px;
-  margin-top: 2px;
-} */
+label{
+  font-weight: 150;
+  font-size:18px;
+}
