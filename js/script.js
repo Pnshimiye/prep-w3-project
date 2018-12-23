@@ -3,11 +3,13 @@ var answerQuestionOne;
 var answerQuestionTwo;
 var answerQuestionThree;
 var answerQuestionFour;
+// var answerQuestionFive;
 
  var markOne;
  var markTwo;
  var markThree;
  var markFour;
+//  var markFive;
 
  var totalResult;
 
@@ -18,9 +20,11 @@ $(document).ready(function(){
       answerQuestionTwo = $("input[name='qtn1']:checked").val();
       answerQuestionThree = $("input[name='qtn2']:checked").val();
       answerQuestionFour = $("input[name='qtn3']:checked").val();
+      // answerQuestionFive = $("input[name='qtn4']:checked").val();
+
     
       if(answerQuestionOne === "right"){
-        markOne=2.5;
+        markOne=2;
       }
       else{
         markOne=0;
@@ -28,7 +32,7 @@ $(document).ready(function(){
 
 
       if(answerQuestionTwo === "right"){
-        markTwo=2.5;
+        markTwo=2;
       }
       else{
         markTwo=0;
@@ -36,7 +40,7 @@ $(document).ready(function(){
 
 
       if(answerQuestionThree === "right"){
-        markThree=2.5;
+        markThree=2;
       }
       else{
         markThree=0;
@@ -45,13 +49,19 @@ $(document).ready(function(){
 
 
       if(answerQuestionFour === "right"){
-        markFour=2.5;
+        markFour=2;
       }
       else{
         markFour=0;
       }
+      if(answerQuestionFive === "right"){
+        markFive=2;
+      }
+      else{
+        markFive=0;
+      }
 
-      totalResult=markOne+markTwo+markThree+markFour
+      // totalResult=markOne+markTwo+markThree+markFour+markFive
       
       $("#output").text("Your score is "+totalResult+" out of 10");
 
