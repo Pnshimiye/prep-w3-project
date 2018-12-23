@@ -3,7 +3,7 @@ var answerQuestionOne;
 var answerQuestionTwo;
 var answerQuestionThree;
 var answerQuestionFour;
-// var answerQuestionFive;
+var answerQuestionFive;
 
  var markOne;
  var markTwo;
@@ -54,12 +54,12 @@ $(document).ready(function(){
       else{
         markFour=0;
       }
-      if(answerQuestionFive === "right"){
-        markFive=2;
-      }
-      else{
-        markFive=0;
-      }
+      // if(answerQuestionFive === "right"){
+      //   markFive=2;
+      // }
+      // else{
+      //   markFive=0;
+      // }
 
       // totalResult=markOne+markTwo+markThree+markFour+markFive
       
