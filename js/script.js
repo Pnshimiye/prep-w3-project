@@ -9,7 +9,7 @@ var answerQuestionFive;
  var markTwo;
  var markThree;
  var markFour;
-//  var markFive;
+ var markFive;
 
  var totalResult;
 
