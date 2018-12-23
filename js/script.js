@@ -61,7 +61,7 @@ $(document).ready(function(){
         markFive=0;
       }
 
-      // totalResult=markOne+markTwo+markThree+markFour+markFive
+      totalResult=markOne+markTwo+markThree+markFour+markFive
       
       $("#output").text("Your score is "+totalResult+" out of 10");
 
